@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body id="body"><div>
+    <button onclick="func()" id="bt1" class="bt1">toggle darkmode</button></div>
+    <div class="container">
+ <div class="one" id="one">
+        <h2>car park A</h2>
+        <li>occupant:</li>
+        <li>automobile type</li>
+        <li>car name</li>
+        <li>time in</li>
+        <div class="time">
+        <label for="time">time left</label></div>
+        <input type="clock" class="time" id="time" disabled>
+        <label for="check">available for booking?</label>
+        <input type="checkbox" name="check" id="check">
+        <button onclick="book()" id="book">book</button>
+    </div>
+    <div class="one" id="t2">
+        <h2>car park b</h2>
+        <li>occupant:</li>
+        <li>automobile type</li>
+        <li>car name</li>
+        <li>time in</li>
+        <div class="time">
+        <label for="time">time left</label>
+        <input type="time" name="time" id="time" disabled></div>
+        <label for="check">available for booking?</label>
+        <input type="checkbox" name="check" id="check">
+        <button onclick="book()" id="book">book</button>
+        </div>
+    <div class="one" id="t3">
+        <h2>car park c</h2>
+        <li>occupant:</li>
+        <li>automobile type</li>
+        <li>car name</li>
+        <li>time in</li>
+        <div class="time">
+        <label for="time">time left</label>
+        <input type="time" name="time" id="time" disabled></div>
+        <label for="check">available for booking?</label>
+        <input type="checkbox" name="check" id="check">
+        <button onclick="book()" id="book">book</button>
+    </div>
+    <div class="one" id="t4">
+        <h2>car park c</h2>
+        <li>occupant:</li>
+        <li>automobile type</li>
+        <li>car name</li>
+        <li>time in</li>
+        <div class="time">
+        <label for="time">time left</label>
+        <input type="time" name="time" id="time" disabled></div>
+        <label for="check">available for booking?</label>
+        <input type="checkbox" name="check" id="check">
+        <button onclick="book()" id="book">book</button>
+    </div>
+
+    
+   <div class="form" id="form">
+    <form action="">
+    <label for="fullname">fullname</label>
+    <input type="text" name="" id="fullname">
+    <label for="duration">duration in hours</label>
+    <div class="select">
+    <select name="duration" id="select">
+        <option value="defaut">0.5</option>
+        <option value="defaut">1</option>
+        <option value="defaut">1.5</option>
+        <option value="defaut">2</option>
+        <option value="defaut">4</option>
+        <option value="defaut">5</option>
+        <option value="defaut">10</option>
+        <option value="defaut">20</option>
+        <option value="defaut">24</option>
+        <option value="defaut">48</option>
+        <option value="defaut">64</option>
+        <input type="number" name="" id="" placeholder="enter a custom duration (hours)" max="64">
+        </select></div>
+        <input type="submit" id="submit" value="book-space">
+    </select>
+</form>
+</div>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
